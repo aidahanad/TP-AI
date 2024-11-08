@@ -1,4 +1,3 @@
-
 % 1. Check if X is an element of the list L
 element(X, [X|_]).
 element(X, [_|T]) :- element(X, T).
